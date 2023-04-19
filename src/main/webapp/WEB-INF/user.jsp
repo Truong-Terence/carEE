@@ -9,7 +9,7 @@
   <title>Users</title>
 </head>
 <body>
-<c:import url="partials/anonymous_navbar.jsp"></c:import>
+<c:import url="partials/anonymous-navbar.jsp"></c:import>
 <h1>Users</h1>
 <table>
   <thead>

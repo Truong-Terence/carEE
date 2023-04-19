@@ -87,6 +87,17 @@ public class CarJdbcDao implements CarDao {
 
     }
 
+    public void deleteById(Long carId) {
+        try {
+        Connection connection = ConnectionManager.getInstance();
+         PreparedStatement statement = connection.prepareStatement("DELETE FROM car WHERE car_id = ?");
+        statement.setLong(1, carId);
+        statement.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     @Override
     public Car findByName(String nameFind) {
         Car carFound = null;

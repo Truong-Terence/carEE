@@ -9,7 +9,7 @@
     <title>Car list</title>
 </head>
 <body>
-<c:import url="partials/anonymous_navbar.jsp"></c:import>
+<c:import url="partials/anonymous-navbar.jsp"></c:import>
 <h1>Car list</h1>
 <table>
     <thead>

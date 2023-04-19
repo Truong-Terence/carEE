@@ -7,7 +7,7 @@
   <title>List of Categories</title>
 </head>
 <body>
-<c:import url="partials/anonymous_navbar.jsp"></c:import>
+<c:import url="partials/anonymous-navbar.jsp"></c:import>
 <h1>List of Categories</h1>
   <c:forEach var="category" items="${categories}">
     <tr>

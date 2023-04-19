@@ -7,7 +7,7 @@
   <title>Login</title>
 </head>
 <body>
-<c:import url="partials/anonymous_navbar.jsp"></c:import>
+<c:import url="partials/anonymous-navbar.jsp"></c:import>
 <div class="container">
   <form action="${pageContext.request.contextPath}/login" method="post">
     <div class="mb-3">

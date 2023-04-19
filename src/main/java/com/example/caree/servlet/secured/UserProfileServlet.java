@@ -1,4 +1,4 @@
-package com.example.caree.Servlet.secured;
+package com.example.caree.servlet.secured;
 
 import com.example.caree.model.User;
 import com.example.caree.service.UserService;

@@ -3,10 +3,11 @@
 <html>
 <head>
   <title>Profil</title>
+  <link href="../css/style.css"  rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
-
+<c:import url="partials/anonymous_navbar.jsp"></c:import>
 <div class="container">
   <div class="col-8 offset-2">
     <h1>Your profil</h1>
@@ -16,6 +17,6 @@
     </div>
   </div>
 </div>
-
+<c:import url="partials/footer.jsp"></c:import>
 </body>
 </html>

@@ -1,4 +1,10 @@
 package com.example.caree.dao;
 
-public interface CarDao {
+import com.example.caree.model.Car;
+
+public interface CarDao extends GenericDao <Car, Long> {
+
+    Car findByName(String name);
+
+
 }

@@ -1,6 +1,6 @@
 package com.example.caree.filter;
 
-import com.example.caree.Servlet.anonymous.LoginServlet;
+import com.example.caree.servlet.anonymous.LoginServlet;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.ServletRequest;

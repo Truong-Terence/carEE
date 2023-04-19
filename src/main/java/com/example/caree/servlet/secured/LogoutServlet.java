@@ -1,4 +1,4 @@
-package com.example.caree.Servlet.secured;
+package com.example.caree.servlet.secured;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

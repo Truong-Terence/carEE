@@ -1,4 +1,4 @@
-package com.example.caree.Servlet.anonymous;
+package com.example.caree.servlet.anonymous;
 
 import com.example.caree.model.User;
 import com.example.caree.service.UserService;
